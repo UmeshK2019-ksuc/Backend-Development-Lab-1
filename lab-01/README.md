@@ -11,6 +11,13 @@ Deployed using render platform successfully
 ## Objective
 To understand Node.js fundamentals and build a web server using the built-in HTTP module and Express.js.
 
+### Features
+- Create a basic HTTP server in Node.js
+- Build the same functionality with Express.js
+- Handle different routes and HTTP responses
+- Return JSON data for the about page and current time
+- Display a clean 404 page for unknown routes
+
 ## Technologies Used
 - Node.js
 - Express.js

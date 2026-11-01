@@ -1,0 +1,12 @@
+{
+  "name": "lab-01",
+  "version": "1.0.0",
+  "description": "Node.js and Express server lab",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "express": "^4.21.2"
+  }
+}
