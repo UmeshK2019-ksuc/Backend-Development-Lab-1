@@ -2,7 +2,7 @@
 
 ## Student Details
 
-- **Name:** Gurram Shravana Manikanta
+- **Name:** K UMESH
 - **Branch:** CSE (AIML)
 - **Section:** 2B
 - **Lab:** 02 – SQLite Database and CRUD Routes
@@ -65,7 +65,7 @@ The database and table were created using the SQLite command-line interface. Ini
 1. Clone the repository:
 
 ```bash
-git clone https://github.com/g-shravana-manikanta/Backend-Development-Labs.git
+git clone https://github.com/UmeshK2019-ksuc/Backend-Development-Lab-1.git
 ```
 
 2. Navigate to the Lab 02 directory:
