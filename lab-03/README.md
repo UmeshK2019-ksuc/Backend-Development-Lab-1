@@ -1,7 +1,7 @@
 # Lab 3: REST API, Query Parameters, Validation and Debugging
 
-**Name:** Enumula Siddharth Reddy  
-**Registration Number:** 252U1R6064  
+**Name:** K UMESH  
+**Registration Number:** 252U1R6105 
 **Section:** AIML-2B
 
 ## Overview
