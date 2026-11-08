@@ -9,7 +9,7 @@ app.get('/', (request, response) => {
 app.get('/about', (request, response) => {
     response.status(200).json({
         name: 'K UMESH',
-        'Registration number': "252U1R6105",
+        'Registration number': '252U1R6105',
         section: 'CSE AIML 2B'
     });
 });
