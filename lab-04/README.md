@@ -32,15 +32,17 @@ Add user registration and login with securely hashed passwords using **bcrypt** 
 ```text
 lab-04/
 ├── index.js              # Express server, SQLite initialization, register & login routes
+├── userData.db           # Empty schema-only SQLite database
 ├── package.json          # Node.js project manifest & scripts
 ├── package-lock.json     # Dependency lock file
 ├── .gitignore            # Ignores dependencies, local secrets, and runtime data
 ├── README.md             # Project documentation, endpoints & viva questions
-└── test-runner.js        # Automated test suite for registration, login, and JWT
+├── test-runner.js        # Automated test suite for registration, login, and JWT
+└── screenshots/          # Redacted API and verification screenshots
 ```
 
-The SQLite database (`userData.db`) is created at runtime and is not committed.
-Local screenshots are also excluded because they contain test credentials and JWTs.
+The committed database contains only the table schema; local user records are not included.
+Screenshots are redacted to remove credentials, JWTs, the signing secret, and identifying details.
 
 ---
 
@@ -157,6 +159,22 @@ Invalid password
 ```
 
 ---
+
+---
+
+## Screenshots
+
+Sensitive values and identifying details have been redacted from these screenshots.
+
+![Authentication code](screenshots/auth-code.png.png)
+![JWT decoded](screenshots/jwt_decode.png)
+![Successful login](screenshots/login_sucess.png)
+![Unknown user](screenshots/login_unknown_user.png)
+![Wrong password](screenshots/login_wrong%20password.png)
+![Registration validation](screenshots/registation_validation.png)
+![Successful registration](screenshots/register-success.png)
+![Duplicate registration](screenshots/register_duplicate.png)
+![Server running](screenshots/server-running.png)
 
 ---
 
